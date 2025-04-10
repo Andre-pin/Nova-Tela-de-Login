@@ -98,7 +98,7 @@ input::placeholder {
 }
 
 .remember-me {
-    font-display: flex;
+    display: flex;
     align-items: center;
     cursor: pointer;
 }
