@@ -133,7 +133,7 @@ button{
 
 button:hover {
     background-color: var(--primary-hover);
-    transition: translateY(-2px);
+    transform: translateY(-2px);
 }
 
 button:active {
