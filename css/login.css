@@ -130,3 +130,12 @@ button{
     justify-content: center;
     align-items: center;
 }
+
+button:hover {
+    background-color: var(--primary-hover);
+    transition: translateY(-2px);
+}
+
+button:active {
+    transform: translateY(0);
+}
