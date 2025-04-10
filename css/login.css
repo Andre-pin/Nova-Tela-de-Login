@@ -71,7 +71,7 @@ input:focus{
 }
 
 input::placeholder {
-    color: var(--text-secondary);
+    color: var(--text-secundary);
     opacity: 0.7;
 }
 .forgot-password {
