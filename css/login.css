@@ -74,3 +74,43 @@ input::placeholder {
     color: var(--text-secondary);
     opacity: 0.7;
 }
+.forgot-passaword {
+    text-align: right;
+    margin-top: 0.5rem;
+}
+
+.forgot-passaword a {
+    color: var(--text-secundary);
+    font-size: 0.85rem;
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+.forgot-passaword a:hover {
+    color: var(--primary-color);
+}
+
+.options {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+
+.remember-me {
+    font-display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.remember-me input {
+    width: auto;
+    margin-right: 0.5rem;
+    accent-color: var(--primary-color);
+}
+
+.remember-me label {
+    margin-bottom: 0;
+    font-size: 0.85rem;
+    cursor: pointer;
+}
